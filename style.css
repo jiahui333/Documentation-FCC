@@ -1,0 +1,50 @@
+#navbar{
+  position: fixed;
+  height: 100%;
+  width: 280px;
+  min-width: 200px;
+  
+  top: 0px;
+  left: 0px;
+  
+  color: #0c3900;
+  background: linen;
+  
+  padding-top: 80px;
+  padding-left: 20px;
+}
+
+#navbar ul{
+  list-style: none;
+}
+
+#navbar a{
+  color: #0c3900;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+#navbar a:hover{
+  text-decoration: underline;
+}
+
+#main-doc {
+  margin-top: 30px;
+  position: absolute;
+  margin-left: 320px;
+}
+
+.main-section{
+  padding: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  #navbar{
+    width: 200px;
+  }
+  #navbar a{
+  display: block;
+  padding: 2px;
+}
+
